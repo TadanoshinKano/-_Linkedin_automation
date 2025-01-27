@@ -104,6 +104,10 @@
 
 3.  **仮想環境の有効化:**
     -   **Windowsの場合:**
+       ```bash
+       Set-ExecutionPolicy RemoteSigned -Scope CurrentUser
+       ```
+    -   
         ```bash
         venv\Scripts\activate
         ```
